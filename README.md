@@ -1,7 +1,7 @@
 # Proyecto-Final-Arquitectura-de-Computadoras-d03
 Proyecto final de la materia de Arquitectura de Computadoras. Consiste en un Pipeline MIPS de 5 etapas en Verilog (usando el programa de ModelSim) y de un decodificador en Python que decodifica instrucciones MIPS (assembly) a binario (Big Endian).
 # Pipeline MIPS de 5 Etapas con Decodificador en Python
-
+Echo por Andres Ortiz Guizar y Rodrigo Sanchez Rivera 
 
 ## Características
 
