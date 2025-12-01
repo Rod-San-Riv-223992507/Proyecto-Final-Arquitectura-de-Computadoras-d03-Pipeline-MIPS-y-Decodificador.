@@ -1,0 +1,127 @@
+C:/Arqui_Compu/ProyectoF/ALU.v {1 {vlog -work MIPSPL -stats=none C:/Arqui_Compu/ProyectoF/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Arqui_Compu/ProyectoF/MIPS_Pipeline_TB.v {1 {vlog -work MIPSPL -stats=none C:/Arqui_Compu/ProyectoF/MIPS_Pipeline_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MIPS_Pipeline_TB
+
+Top level modules:
+	MIPS_Pipeline_TB
+
+} {} {}} C:/Arqui_Compu/ProyectoF/PC.v {1 {vlog -work MIPSPL -stats=none C:/Arqui_Compu/ProyectoF/PC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} C:/Arqui_Compu/ProyectoF/If_ID.v {1 {vlog -work MIPSPL -stats=none C:/Arqui_Compu/ProyectoF/If_ID.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module IF_ID
+
+Top level modules:
+	IF_ID
+
+} {} {}} C:/Arqui_Compu/ProyectoF/EX_MEM.v {1 {vlog -work MIPSPL -stats=none C:/Arqui_Compu/ProyectoF/EX_MEM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module EX_MEM
+
+Top level modules:
+	EX_MEM
+
+} {} {}} C:/Arqui_Compu/ProyectoF/UniCon.v {1 {vlog -work MIPSPL -stats=none C:/Arqui_Compu/ProyectoF/UniCon.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module UniCon
+
+Top level modules:
+	UniCon
+
+} {} {}} C:/Arqui_Compu/ProyectoF/Reg_File.v {1 {vlog -work MIPSPL -stats=none {C:\Arqui_Compu\ProyectoF\Reg_File.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Reg_File
+
+Top level modules:
+	Reg_File
+
+} {} {}} C:/Arqui_Compu/ProyectoF/MUX_32BIT.v {1 {vlog -work MIPSPL -stats=none C:/Arqui_Compu/ProyectoF/MUX_32BIT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX_32bit
+
+Top level modules:
+	MUX_32bit
+
+} {} {}} C:/Arqui_Compu/ProyectoF/MUX_5BIT.v {1 {vlog -work MIPSPL -stats=none C:/Arqui_Compu/ProyectoF/MUX_5BIT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX_5bit
+
+Top level modules:
+	MUX_5bit
+
+} {} {}} C:/Arqui_Compu/ProyectoF/Sign_Extend.v {1 {vlog -work MIPSPL -stats=none C:/Arqui_Compu/ProyectoF/Sign_Extend.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Sign_Extend
+
+Top level modules:
+	Sign_Extend
+
+} {} {}} C:/Arqui_Compu/ProyectoF/Mem_Datos.v {1 {vlog -work MIPSPL -stats=none C:/Arqui_Compu/ProyectoF/Mem_Datos.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mem_Datos
+
+Top level modules:
+	Mem_Datos
+
+} {} {}} C:/Arqui_Compu/ProyectoF/MemIns.v {1 {vlog -work MIPSPL -stats=none {C:\Arqui_Compu\ProyectoF\MemIns.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MemIns
+
+Top level modules:
+	MemIns
+
+} {} {}} C:/Arqui_Compu/ProyectoF/Alu_Control.v {1 {vlog -work MIPSPL -stats=none C:/Arqui_Compu/ProyectoF/Alu_Control.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU_Control
+
+Top level modules:
+	ALU_Control
+
+} {} {}} C:/Arqui_Compu/ProyectoF/Adder_32bit.v {1 {vlog -work MIPSPL -stats=none C:/Arqui_Compu/ProyectoF/Adder_32bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Adder_32bit
+
+Top level modules:
+	Adder_32bit
+
+} {} {}} C:/Arqui_Compu/ProyectoF/MIPS_Pipeline.v {1 {vlog -work MIPSPL -stats=none C:/Arqui_Compu/ProyectoF/MIPS_Pipeline.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MIPS_Pipeline
+
+Top level modules:
+	MIPS_Pipeline
+
+} {} {}} C:/Arqui_Compu/ProyectoF/MEM_WR.v {1 {vlog -work MIPSPL -stats=none C:/Arqui_Compu/ProyectoF/MEM_WR.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MEM_WR
+
+Top level modules:
+	MEM_WR
+
+} {} {}} C:/Arqui_Compu/ProyectoF/Shift_Left_2.v {1 {vlog -work MIPSPL -stats=none C:/Arqui_Compu/ProyectoF/Shift_Left_2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Shift_Left_2
+
+Top level modules:
+	Shift_Left_2
+
+} {} {}} C:/Arqui_Compu/ProyectoF/ID_EX.v {1 {vlog -work MIPSPL -stats=none C:/Arqui_Compu/ProyectoF/ID_EX.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ID_EX
+
+Top level modules:
+	ID_EX
+
+} {} {}}

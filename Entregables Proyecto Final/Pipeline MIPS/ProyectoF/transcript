@@ -1,0 +1,66 @@
+vsim MIPS_Pipeline_TB
+# vsim MIPS_Pipeline_TB 
+# Start time: 18:06:44 on Nov 30,2025
+# Loading work.MIPS_Pipeline_TB
+# Loading work.MIPS_Pipeline
+# Loading work.PC
+# Loading work.MemIns
+# Loading work.Adder_32bit
+# Loading work.IF_ID
+# Loading work.UniCon
+# Loading work.Reg_File
+# Loading work.Sign_Extend
+# Loading work.ID_EX
+# Loading work.ALU_Control
+# Loading work.MUX_32bit
+# Loading work.ALU
+# Loading work.MUX_5bit
+# Loading work.Shift_Left_2
+# Loading work.EX_MEM
+# Loading work.Mem_Datos
+# Loading work.MEM_WR
+add wave -position insertpoint  \
+sim:/MIPS_Pipeline_TB/clk \
+sim:/MIPS_Pipeline_TB/reset \
+sim:/MIPS_Pipeline_TB/pc_out \
+sim:/MIPS_Pipeline_TB/instruction_out \
+sim:/MIPS_Pipeline_TB/alu_result_out \
+sim:/MIPS_Pipeline_TB/mem_data_out \
+sim:/MIPS_Pipeline_TB/wb_data_out
+add wave -position insertpoint sim:/ MIPS_Pipeline_TB /dut/read_data1
+# ** UI-Msg: (vish-4014) No objects found matching '/'.
+# ** UI-Msg: (vish-4014) No objects found matching 'MIPS_Pipeline_TB'.
+add wave -position insertpoint sim:/MIPS_Pipeline_TB/dut/read_data1
+add wave -position insertpoint sim:/MIPS_Pipeline_TB/dut/read_data2
+property wave -radix decimal *
+run 25ns
+#    MEM[0] = 00000000001000100001100000100000
+#    MEM[1] = 00000000011001000010100000100010
+#    MEM[2] = 00100000100010010000000001100100
+#    MEM[3] = 10001101010010100000000000000100
+#    MEM[4] = 00000000011010100101100000100100
+#    MEM[5] = 00010001000010010000000000000001
+#    MEM[6] = 00001000000000000000000000001100
+#    MEM[7] = 00100000000010000000000000000000
+#  Banco de registros inicializado:
+#    $1=10, $2=20, $3=30, $4=40
+#    $8=200, $9=100, $10=50, $11=60
+#  Memoria de datos inicializada:
+#    MEM[1]=0000000a, MEM[2]=0000000b, MEM[3]=0000000c
+# Iniciando simulación del Pipeline MIPS
+# Time	PC	Instruction	ALU_Result	Mem_Data	WB_Data
+# ----------------------------------------------------------------
+run 45ns
+# 30	00000000	00221820	00000000	00000000	00000000
+# 50	00000004	00642822	00000000	00000000	00000000
+# 70	00000008	20890064	0000001e	00000000	00000000
+run 65ns
+# 90	0000000c	8d4a0004	fffffff6	00000000	00000000
+#  110: REG[$3] = 0000001e (decimal: 30)
+# 110	00000010	006a5824	0000008c	00000000	0000001e
+#  130: REG[$5] = fffffff6 (decimal: 4294967286)
+# 130	00000014	11090001	00000036	00000000	fffffff6
+#  130: MEM_READ[13] = 00000000
+quit -sim
+# End time: 18:11:29 on Nov 30,2025, Elapsed time: 0:04:45
+# Errors: 0, Warnings: 1
